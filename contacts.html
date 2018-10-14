@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+</head>
+<style>
+.page {
+	background: #F5F6F6;
+	padding: 100px 0;
+	position: relative;
+	z-index: 99;
+}
+
+#home-slider .container {
+	height: 100%;	
+}
+
+#home-slider .container .row {
+	position: absolute;
+	bottom: 100px;
+}
+.span9 {
+    width: 870px;
+}
+.span3 {
+    width: 270px;
+}
+
+/* ==================================================
+   Contact Section
+================================================== */
+
+.contact-details h3 {
+	color: #555;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 30px;
+	line-height: 1em;
+    text-transform: uppercase;
+}
+
+.contact-details ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+.contact-details ul li {
+	margin: 0 0 20px;
+	line-height: 28px;
+	padding: 0;	
+}
+
+#contact-form {
+	margin-bottom: 0;	
+}
+
+#contact-form p {
+	margin-bottom: 1px;	
+}
+
+#contact-form input,
+#contact-form textarea {
+    border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+    border-radius: 0;
+	
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	
+	background-color: #fff;
+    color: #555;
+    font-size: 16px;
+    height: auto;
+    padding: 15px;
+	margin: 0;
+	
+    resize: none;
+}
+
+#contact-form input {
+    width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#contact-form textarea {
+    width: 100%;
+	resize: vertical;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#contact-form .submit {
+    background: #E0E0E0;
+    color: #55606A;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+	margin-top: 30px;
+	
+	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;	
+	   -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+		 -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+		    transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+#contact-form .submit:hover {
+    background: #FF7B3A;
+	color: #FFFFFF;
+}
+
+#response {
+	margin-top: 20px;
+	color: #55606A;
+}
+</style>
+<body>
+
+ 
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">서비스, 제휴관련 문의는 이메일을 이용해주시기 바랍니다.</h3>
+                
+                <div class="page-description">
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="보내시는 분" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="회신받을 메일주소" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="메시지를 입력해주세요." name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">이메일보내기</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Contacts</h3>
+                <ul>
+                    <li><a href="mailto:contact@komma.co.kr">contact@komma.co.kr</a></li>
+                   
+                    <li>
+                        (주)콤마
+                        <br>
+                        경기도 성남시 분당구 
+                        <br>
+                        황새울로 116번길 23-5 201호
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Services Form -->
+
+</body>
+</html>
